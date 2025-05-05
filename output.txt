@@ -1,48 +1,91 @@
 Jobs...
-- Job scheduled task 032 (PID 37980) | Start: none | End: none
-- Job scheduled task 796 (PID 57672) | Start: none | End: none
-- Job background job wmy (PID 81258) | Start: none | End: none
-- Job scheduled task 515 (PID 45135) | Start: none | End: none
-- Job scheduled task 051 (PID 39547) | Start: none | End: none
-- Job scheduled task 386 (PID 10515) | Start: none | End: none
-- Job background job dej (PID 90812) | Start: none | End: none
-- Job scheduled task 188 (PID 23118) | Start: none | End: none
-- Job scheduled task 996 (PID 90962) | Start: none | End: none
-- Job background job ulp (PID 60134) | Start: none | End: none
-- Job scheduled task 268 (PID 87228) | Start: none | End: none
-- Job scheduled task 182 (PID 70808) | Start: none | End: none
-- Job scheduled task 946 (PID 47139) | Start: none | End: none
-- Job scheduled task 074 (PID 71766) | Start: none | End: none
-- Job scheduled task 173 (PID 75164) | Start: none | End: none
-- Job scheduled task 538 (PID 26831) | Start: none | End: none
-- Job background job djw (PID 36709) | Start: none | End: none
-- Job scheduled task 811 (PID 50295) | Start: none | End: none
-- Job scheduled task 697 (PID 32904) | Start: none | End: none
-- Job scheduled task 294 (PID 27222) | Start: none | End: none
-- Job background job you (PID 38579) | Start: none | End: none
-- Job scheduled task 626 (PID 32674) | Start: none | End: none
-- Job scheduled task 536 (PID 24799) | Start: none | End: none
-- Job scheduled task 706 (PID 33528) | Start: none | End: none
-- Job scheduled task 460 (PID 39860) | Start: none | End: none
-- Job scheduled task 794 (PID 87570) | Start: none | End: none
-- Job background job cmx (PID 55722) | Start: none | End: none
-- Job scheduled task 064 (PID 85742) | Start: none | End: none
-- Job scheduled task 004 (PID 22003) | Start: none | End: none
-- Job scheduled task 521 (PID 64591) | Start: none | End: none
-- Job background job sqm (PID 99672) | Start: none | End: none
-- Job scheduled task 080 (PID 67833) | Start: none | End: none
-- Job scheduled task 678 (PID 96183) | Start: none | End: none
-- Job background job xfg (PID 86716) | Start: none | End: none
-- Job scheduled task 920 (PID 34189) | Start: none | End: none
-- Job background job tqc (PID 52532) | Start: none | End: none
-- Job scheduled task 773 (PID 16168) | Start: none | End: none
-- Job scheduled task 333 (PID 72029) | Start: none | End: none
-- Job scheduled task 746 (PID 98746) | Start: none | End: none
-- Job scheduled task 374 (PID 23703) | Start: none | End: none
-- Job scheduled task 936 (PID 62401) | Start: none | End: none
-- Job background job wiy (PID 81470) | Start: none | End: none
-- Job scheduled task 672 (PID 24482) | Start: none | End: none
-- Job scheduled task 016 (PID 72897) | Start: none | End: none
-- Job scheduled task 531 (PID 62922) | Start: none | End: none
+- Job scheduled task 032 (PID 37980) | Start: 11:35:23 | End: 11:35:56
+- Job scheduled task 796 (PID 57672) | Start: 11:36:11 | End: 11:36:18
+- Job background job wmy (PID 81258) | Start: 11:36:58 | End: 11:51:44
+- Job scheduled task 515 (PID 45135) | Start: 11:37:14 | End: 11:49:37
+- Job scheduled task 051 (PID 39547) | Start: 11:37:53 | End: 11:49:22
+- Job scheduled task 386 (PID 10515) | Start: 11:38:33 | End: 11:40:24
+- Job background job dej (PID 90812) | Start: 11:39:26 | End: 11:43:32
+- Job scheduled task 188 (PID 23118) | Start: 11:40:49 | End: 11:41:28
+- Job scheduled task 996 (PID 90962) | Start: 11:40:51 | End: 11:42:46
+- Job background job ulp (PID 60134) | Start: 11:41:11 | End: 11:41:55
+- Job scheduled task 268 (PID 87228) | Start: 11:44:25 | End: 11:53:53
+- Job scheduled task 182 (PID 70808) | Start: 11:44:43 | End: 12:18:26
+- Job scheduled task 946 (PID 47139) | Start: 11:44:56 | End: 11:48:22
+- Job scheduled task 074 (PID 71766) | Start: 11:45:04 | End: 11:50:51
+- Job scheduled task 173 (PID 75164) | Start: 11:45:47 | End: 11:46:51
+- Job scheduled task 538 (PID 26831) | Start: 11:46:04 | End: 11:48:16
+- Job background job djw (PID 36709) | Start: 11:47:04 | End: 11:47:54
+- Job scheduled task 811 (PID 50295) | Start: 11:48:45 | End: 11:55:20
+- Job scheduled task 697 (PID 32904) | Start: 11:49:12 | End: 11:49:46
+- Job scheduled task 294 (PID 27222) | Start: 11:50:07 | End: 11:56:15
+- Job background job you (PID 38579) | Start: 11:50:09 | End: 11:53:42
+- Job scheduled task 626 (PID 32674) | Start: 11:51:06 | End: 11:52:32
+- Job scheduled task 536 (PID 24799) | Start: 11:51:21 | End: 11:51:28
+- Job scheduled task 706 (PID 33528) | Start: 11:52:47 | End: 11:56:09
+- Job scheduled task 460 (PID 39860) | Start: 11:53:17 | End: 12:13:09
+- Job scheduled task 794 (PID 87570) | Start: 11:53:57 | End: 12:01:50
+- Job background job cmx (PID 55722) | Start: 11:54:56 | End: 11:55:43
+- Job scheduled task 064 (PID 85742) | Start: 11:55:16 | End: 12:07:33
+- Job scheduled task 004 (PID 22003) | Start: 11:55:29 | End: 12:06:42
+- Job scheduled task 521 (PID 64591) | Start: 11:57:05 | End: 11:58:55
+- Job background job sqm (PID 99672) | Start: 11:57:08 | End: 12:02:21
+- Job scheduled task 080 (PID 67833) | Start: 11:57:16 | End: 12:00:51
+- Job scheduled task 678 (PID 96183) | Start: 11:58:12 | End: 12:02:26
+- Job background job xfg (PID 86716) | Start: 11:59:29 | End: 12:05:03
+- Job scheduled task 920 (PID 34189) | Start: 11:59:43 | End: 12:03:02
+- Job background job tqc (PID 52532) | Start: 12:00:03 | End: 12:13:56
+- Job scheduled task 773 (PID 16168) | Start: 12:02:39 | End: 12:02:55
+- Job scheduled task 333 (PID 72029) | Start: 12:03:20 | End: none
+- Job scheduled task 746 (PID 98746) | Start: 12:04:18 | End: 12:11:35
+- Job scheduled task 374 (PID 23703) | Start: 12:04:57 | End: 12:18:23
+- Job scheduled task 936 (PID 62401) | Start: 12:05:59 | End: 12:16:23
+- Job background job wiy (PID 81470) | Start: 12:08:30 | End: 12:09:33
+- Job scheduled task 672 (PID 24482) | Start: 12:10:38 | End: 12:19:14
+- Job scheduled task 016 (PID 72897) | Start: 12:12:27 | End: none
+- Job scheduled task 531 (PID 62922) | Start: 12:14:20 | End: 12:15:09
 
 Analysis:
+INFO: Job scheduled task 032 (PID 37980) completed in 0 min 33 sec.
+INFO: Job scheduled task 796 (PID 57672) completed in 0 min 7 sec.
+ERROR: Job background job wmy (PID 81258) took 14 min 46 sec!
+ERROR: Job scheduled task 515 (PID 45135) took 12 min 23 sec!
+ERROR: Job scheduled task 051 (PID 39547) took 11 min 29 sec!
+INFO: Job scheduled task 386 (PID 10515) completed in 1 min 51 sec.
+INFO: Job background job dej (PID 90812) completed in 4 min 6 sec.
+INFO: Job scheduled task 188 (PID 23118) completed in 0 min 39 sec.
+INFO: Job scheduled task 996 (PID 90962) completed in 1 min 55 sec.
+INFO: Job background job ulp (PID 60134) completed in 0 min 44 sec.
+WARNING: Job scheduled task 268 (PID 87228) took 9 min 28 sec!
+ERROR: Job scheduled task 182 (PID 70808) took 33 min 43 sec!
+INFO: Job scheduled task 946 (PID 47139) completed in 3 min 26 sec.
+WARNING: Job scheduled task 074 (PID 71766) took 5 min 47 sec!
+INFO: Job scheduled task 173 (PID 75164) completed in 1 min 4 sec.
+INFO: Job scheduled task 538 (PID 26831) completed in 2 min 12 sec.
+INFO: Job background job djw (PID 36709) completed in 0 min 50 sec.
+WARNING: Job scheduled task 811 (PID 50295) took 6 min 35 sec!
+INFO: Job scheduled task 697 (PID 32904) completed in 0 min 34 sec.
+WARNING: Job scheduled task 294 (PID 27222) took 6 min 8 sec!
+INFO: Job background job you (PID 38579) completed in 3 min 33 sec.
+INFO: Job scheduled task 626 (PID 32674) completed in 1 min 26 sec.
+INFO: Job scheduled task 536 (PID 24799) completed in 0 min 7 sec.
+INFO: Job scheduled task 706 (PID 33528) completed in 3 min 22 sec.
+ERROR: Job scheduled task 460 (PID 39860) took 19 min 52 sec!
+WARNING: Job scheduled task 794 (PID 87570) took 7 min 53 sec!
+INFO: Job background job cmx (PID 55722) completed in 0 min 47 sec.
+ERROR: Job scheduled task 064 (PID 85742) took 12 min 17 sec!
+ERROR: Job scheduled task 004 (PID 22003) took 11 min 13 sec!
+INFO: Job scheduled task 521 (PID 64591) completed in 1 min 50 sec.
+WARNING: Job background job sqm (PID 99672) took 5 min 13 sec!
+INFO: Job scheduled task 080 (PID 67833) completed in 3 min 35 sec.
+INFO: Job scheduled task 678 (PID 96183) completed in 4 min 14 sec.
+WARNING: Job background job xfg (PID 86716) took 5 min 34 sec!
+INFO: Job scheduled task 920 (PID 34189) completed in 3 min 19 sec.
+ERROR: Job background job tqc (PID 52532) took 13 min 53 sec!
+INFO: Job scheduled task 773 (PID 16168) completed in 0 min 16 sec.
+WARNING: Job scheduled task 746 (PID 98746) took 7 min 17 sec!
+ERROR: Job scheduled task 374 (PID 23703) took 13 min 26 sec!
+ERROR: Job scheduled task 936 (PID 62401) took 10 min 24 sec!
+INFO: Job background job wiy (PID 81470) completed in 1 min 3 sec.
+WARNING: Job scheduled task 672 (PID 24482) took 8 min 36 sec!
+INFO: Job scheduled task 531 (PID 62922) completed in 0 min 49 sec.

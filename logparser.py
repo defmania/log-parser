@@ -14,7 +14,10 @@ def parse_log(file_path):
         reader = csv.reader(csvfile)
         for row in reader:
             timestamp, task_name, status, pid = row
-            timestamp = datetime.strptime(timestamp, "%H:%M:%S")
+            #cleaing up empty spaces
+            pid = str(pid).strip()
+            status = status.strip()
+            timestamp = datetime.strptime(timestamp.strip(), "%H:%M:%S")
 
             if pid not in jobs:
                 jobs[pid] = {"name": task_name, "start": None, "end": None}
@@ -36,9 +39,9 @@ def analyze_jobs(jobs, report):
 #going through each job by pid
         for pid, details in jobs.items():
             print(f"DEBUG2: {pid} - {details}") # Debugging print
-            start = details["start"].strftime("%H:%M:%S") if details["start"] else "none"
-            end = details["end"].strftime("%H:%M:%S") if details["end"] else "none"
-            f.write(f"- Job {details['name']} (PID {pid}) | Start: {start} | End: {end}\n")
+            startt = details["start"].strftime("%H:%M:%S") if details["start"] else "none"
+            endd = details["end"].strftime("%H:%M:%S") if details["end"] else "none"
+            f.write(f"- Job {details['name']} (PID {pid}) | Start: {startt} | End: {endd}\n")
 
 #analyzing jobs and writing to report
         f.write("\nAnalysis:\n")
