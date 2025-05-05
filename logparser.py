@@ -29,9 +29,38 @@ def parse_log(file_path):
 
 # Funtion to analyze jobs and write to report file
 
-def analyze_jobs(jobs, report_file):
-    with open(output_file, "w") as f:
+def analyze_jobs(jobs, report):
+    with open(report, "w") as f:
+#add identified jobs to report
+        f.write("Jobs...\n")
+#going through each job by pid
+        for pid, details in jobs.items():
+            print(f"DEBUG2: {pid} - {details}") # Debugging print
+            start = details["start"].strftime("%H:%M:%S") if details["start"] else "none"
+            end = details["end"].strftime("%H:%M:%S") if details["end"] else "none"
+            f.write(f"- Job {details['name']} (PID {pid}) | Start: {start} | End: {end}\n")
+
+#analyzing jobs and writing to report
+        f.write("\nAnalysis:\n")
+        for pid, details in jobs.items():
+            if details["start"] and details["end"]:
+                duration = (details["end"] - details["start"]).total_seconds()
+                duration_str = f"{int(duration // 60)} min {int(duration % 60)} sec"
+                print(f"DEBUG: Job {details['name']} (PID {pid}) lasted {duration} seconds")
+
+                if duration > ERROR_THRESHOLD:
+                    f.write(f"ERROR: Job {details['name']} (PID {pid}) took {duration_str}!\n")
+                elif duration > WARNING_THRESHOLD:
+                    f.write(f"WARNING: Job {details['name']} (PID {pid}) took {duration_str}!\n")
+                else:
+                    f.write(f"INFO: Job {details['name']} (PID {pid}) completed in {duration_str}.\n")
+
+            # f.write(f"- Job {details['name']} (PID {pid}) | Start: {start} | End: {end}\n")
+
+#debugging print
+            # print(f"- Job {details['name']} (PID {pid}) | Start: {start} | End: {end}\n")
 
 
 if __name__ == "__main__":
     job_data = parse_log(LOG_FILE)
+    analyze_jobs(job_data, REPORT)
