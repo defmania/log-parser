@@ -25,6 +25,13 @@ def parse_log(file_path):
                 jobs[pid]["end"] = timestamp
             print(f"DEBUG: {timestamp} - {task_name} - {status} - {pid}") # Debugging print
 
+    return jobs
+
+# Funtion to analyze jobs and write to report file
+
+def analyze_jobs(jobs, report_file):
+    with open(output_file, "w") as f:
+
 
 if __name__ == "__main__":
     job_data = parse_log(LOG_FILE)
